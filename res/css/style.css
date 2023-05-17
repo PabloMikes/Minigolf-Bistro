@@ -1,0 +1,386 @@
+body {
+  background-color: rgb(43, 42, 42);
+}
+#logo {
+  width: 12vw;
+  float: left;
+}
+header {
+  width: 100%;
+  height: 12vh;
+  padding: 0vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(55, 53, 53),
+    rgb(92, 86, 86),
+    rgb(55, 53, 53)
+  );
+  /*background-color: rgb(70, 66, 66);*/
+}
+header h1 {
+  margin-left: 0vw;
+  float: left;
+  margin-top: 1.5vh;
+  width: max-content;
+  font-size: 8vh;
+  font-family: dancin;
+  color: rgb(174, 115, 4);
+  cursor: pointer;
+}
+header button {
+  float: right;
+  border: none;
+  margin-right: 1vw;
+  margin-top: 3.5vh;
+  background-color: transparent;
+  color: rgb(174, 115, 4);
+  width: 8vw;
+  height: 5vh;
+  font-size: 2.6vh;
+  cursor: pointer;
+  font-family: somalskarodina;
+  transition: 0.5s;
+}
+
+header button:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+#obsah h2 {
+  margin-top: 10vh;
+  font-size: 7vh;
+  text-align: center;
+  font-family: somalskarodina;
+  color: rgb(174, 115, 4);
+}
+iframe {
+  width: 37.5vw;
+  height: 45vh;
+  margin-left: 0.8vw;
+  margin-bottom: 2vh;
+  margin-top: -5vh;
+}
+#obal {
+  display: flex;
+  font-size: 2vh;
+  color: rgb(174, 115, 4);
+}
+#termin {
+  margin-left: -25vw;
+  margin-top: 5vh;
+  flex: 5;
+  text-align: center;
+  background-color: rgb(49, 48, 48);
+  box-shadow: 0 0 30px;
+  border-radius: 15px;
+  color: rgb(17, 17, 17);
+}
+#termin p {
+  padding: 0;
+  margin: 1vh;
+  color: rgb(174, 115, 4);
+  font-style: italic;
+  font-weight: bold;
+}
+#termin h2 {
+  padding: 0;
+  margin: 0;
+}
+#akce {
+  margin-top: 5vh;
+  flex: 5;
+  text-align: center;
+  background-color: rgb(49, 48, 48);
+  box-shadow: 0 0 30px;
+  border-radius: 15px;
+  color: rgb(17, 17, 17);
+  margin-right: 8vw;
+}
+#akce h2 {
+  padding: 0;
+  margin: 0;
+}
+.mezera {
+  flex: 0.2;
+}
+#obal2 {
+  display: flex;
+  margin-top: 5vh;
+}
+#lokace {
+  background-color: rgb(49, 48, 48);
+  box-shadow: 0 0 30px;
+  border-radius: 15px;
+  color: rgb(17, 17, 17);
+  margin-left: 10vw;
+  margin-right: 15vw;
+  flex: 5;
+}
+#akce a {
+  color: rgb(174, 115, 4);
+}
+#akce p {
+  color: rgb(174, 115, 4);
+}
+#lokace h2 {
+  margin-top: 2vh;
+}
+#fotogalerie {
+  flex: 5;
+  background-color: rgb(49, 48, 48);
+  box-shadow: 0 0 30px;
+  border-radius: 15px;
+  color: rgb(17, 17, 17);
+  margin-left: -15.5vw;
+  margin-right: 8vw;
+}
+#fotogalerie h2 {
+  margin: 0;
+  padding: 0;
+  margin-top: 2vh;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-size: 1.2vh;
+  margin-top: 3vh;
+  bottom: 0;
+  width: 98.5vw;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer p {
+  margin: 0.5vh;
+}
+@font-face {
+  font-family: dancin;
+  src: url(../img/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: somalskarodina;
+  src: url(../img/BebasNeue-Regular.ttf);
+}
+
+#kontaktyObsah {
+  display: none;
+  background-color: rgb(49, 48, 48);
+  box-shadow: 0 0 30px;
+  border-radius: 15px;
+  color: rgb(17, 17, 17);
+  margin-right: 20vw;
+  height: 30vh;
+  margin-left: 20vw;
+  margin-top: 5vh;
+}
+
+#kontaktyObsah p {
+  font-family: dancin;
+  font-size: 3.2vh;
+  margin-left: 1vw;
+  padding-top: 2vh;
+  color: rgb(174, 115, 4);
+}
+
+#jidelnicek {
+  display: none;
+  background-color: rgb(49, 48, 48);
+  box-shadow: 0 0 30px;
+  border-radius: 15px;
+  color: rgb(17, 17, 17);
+  margin-right: 20vw;
+  height: 55vh;
+  margin-left: 20vw;
+  margin-top: 5vh;
+}
+
+#jidelnicek h3 {
+  color: rgb(174, 115, 4);
+  font-family: somalskarodina;
+  font-size: 4vh;
+  padding-top: 1vh;
+  margin-left: 2vw;
+  text-align: center;
+}
+
+#jidelnicek p {
+  font-family: dancin;
+  font-size: 3vh;
+  margin-left: 1vw;
+  padding-top: 0.5vh;
+  color: rgb(174, 115, 4);
+  text-align: center;
+}
+
+#napojnicek {
+  display: none;
+  background-color: rgb(49, 48, 48);
+  box-shadow: 0 0 30px;
+  border-radius: 15px;
+  color: rgb(17, 17, 17);
+  margin-right: 20vw;
+  margin-left: 20vw;
+  margin-top: 5vh;
+  padding-bottom: 2vh;
+}
+
+#napojnicek p {
+  font-family: dancin;
+  font-size: 3vh;
+  margin-left: 1vw;
+  padding-top: 0.5vh;
+  color: rgb(174, 115, 4);
+  text-align: center;
+}
+
+#napojnicek h3:first-child {
+  color: rgb(174, 115, 4);
+  font-family: somalskarodina;
+  font-size: 4vh;
+  padding-top: 1vh;
+  margin-left: 2vw;
+  text-align: center;
+}
+
+#napojnicek h3 {
+  color: rgb(174, 115, 4);
+  font-family: somalskarodina;
+  font-size: 2.5vh;
+  padding-top: 1vh;
+  margin-left: 2vw;
+  text-align: center;
+}
+
+.container {
+  width: 40vw;
+  height: 20vh;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+  }
+  header h1 {
+    margin: 0;
+  }
+  #logo {
+    width: 50vw;
+  }
+  header button {
+    width: 100%;
+  }
+  #obal {
+    display: block;
+    width: 100%;
+  }
+  #obal2 {
+    display: block;
+    width: 100%;
+  }
+  #termin {
+    width: 100%;
+    margin: 0;
+  }
+  #akce {
+    width: 100%;
+  }
+  #lokace {
+    width: 100%;
+    margin: 0;
+  }
+  #fotogalerie {
+    width: 100%;
+    margin: 0;
+    height: 57vh;
+  }
+  iframe {
+    width: 98%;
+  }
+  footer {
+    width: 100%;
+  }
+  #napojnicek {
+    width: 100%;
+    margin: 0;
+    height: max-content;
+  }
+  #jidelnicek {
+    width: 100%;
+    margin: 0;
+    height: max-content;
+  }
+  #kontaktyObsah {
+    width: 100%;
+    margin: 0;
+    font-size: 1.5vh;
+  }
+  hr {
+    display: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 98%;
+    margin: 0;
+  }
+}
